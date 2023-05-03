@@ -91,7 +91,7 @@ Please adhere to this project's `code of conduct`. -->
 
 ## Acknowledgements
 
-`InputRSLV` component was built with Vite and Vue 3, and it uses pre-defined data for regions, states, and LGAs in Nigeria. The original code was provided by the user.
+`InputRSLV` component was built with Vite and Vue 3. It uses pre-defined data for regions, states, and LGAs in Nigeria. The original code was provided by the user.
 ## Spread the word
 
 If you find our npm package useful, please help us spread the word! Share it with your colleagues, friends, and the wider community. This can help us attract more contributors and improve the project's visibility.
