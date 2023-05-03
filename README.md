@@ -80,7 +80,7 @@ To capture the value of the region input, we accessed the region computed proper
 Finally, we defined a `submitForm` function that logs the captured values to the console. You can replace this function with your own logic for handling the form submission.
 
 ## `showRegion` prop
-The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the InputRSL component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
+The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the `InputRSLV` component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
 
 **To use the** component with the showRegion prop, you can pass it as a prop when you instantiate the component, like this:
 ```javascript
