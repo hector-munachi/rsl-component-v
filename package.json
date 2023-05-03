@@ -1,6 +1,6 @@
 {
   "name": "rsl-component-v",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "description": "A reusable Vue component for selecting a state and its corresponding region and LGAs",
   "main": "InputRSLV.vue",

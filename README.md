@@ -2,7 +2,7 @@
 
 A reusable Vue 3 component that simplifies the process of adding Region, State, and LGA selection drop-downs to forms in web applications. This helps developers by eliminating the need to build these inputs from scratch. 
 
-🔗 **[Demo]()**
+🔗 **[Demo](https://rsl-component-v.netlify.app/)**
 
 ## Installation
 
@@ -20,7 +20,7 @@ yarn add rsl-component-v
 
 Import and use the `InputRSLv` component in your Vue component.
 ```javascript
-  <template>
+<template>
   <InputRSLV />
 </template>
 
