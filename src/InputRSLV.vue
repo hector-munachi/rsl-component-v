@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-  <div class="input-container">
+  <div class="input-container" v-if="showRegion=true">
   <label>Region</label>
     <input id="region" type="text" :value="region" disabled>
     </div>

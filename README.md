@@ -79,6 +79,34 @@ To capture the value of the region input, we accessed the region computed proper
 
 Finally, we defined a `submitForm` function that logs the captured values to the console. You can replace this function with your own logic for handling the form submission.
 
+## `showRegion` prop
+The `showRegion` prop is a boolean that controls the visibility of the "Region" input field in the InputRSL component. If set to `true`, the "Region" input field will be displayed, and if set to `false`, the "Region" input field will be hidden.
+
+**To use the** component with the showRegion prop, you can pass it as a prop when you instantiate the component, like this:
+```javascript
+<template>
+  <div>
+    <InputRSLV :showRegion="true" />
+    <InputRSLV :showRegion="false" />
+  </div>
+</template>
+
+<script>
+import MyComponent from '@/components/MyComponent.vue';
+
+export default {
+  components: {
+    InputRSLV
+  }
+};
+</script>
+
+```
+Here, we are rendering two instances of the `InputRSLV` component, one with `showRegion` set to `true`, and the other with `showRegion` set to `false`. This will render the component twice, once with the Region field, and once without it.
+
+**By default value**, the `showRegion` prop is set to `true`, which means that the "Region" input field will be displayed in the `InputRSLV` component if the prop is not explicitly set to `false`.
+
+**Take note that** if you set `showRegion` to `false`, the first input field will be hidden, and the remaining two input fields will shift up to take its place. If you set `showRegion` to `true`, the "Region" input field will be displayed, and the remaining two input fields will shift down to make space for it.
 
 ## Contributing
 
