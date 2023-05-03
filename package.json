@@ -23,8 +23,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/hector-munachi/rsl-component-v"
   },
+  "homepage": "https://rsl-component-v.netlify.app/",
   "author": "Hector Munachi",
   "license": "MIT",
   "dependencies": {
