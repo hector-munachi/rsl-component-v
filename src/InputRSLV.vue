@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-  <div class="input-container" v-if="showRegion=true">
+  <div class="input-container" v-if="showRegion">
   <label>Region</label>
     <input id="region" type="text" :value="region" disabled>
     </div>
@@ -929,6 +929,12 @@ const regions = {
 }
 
 export default {
+  props: {
+    showRegion: {
+      type: Boolean,
+      default: true
+    }
+  },
   setup() {
     const selectedState = ref('');
     const selectedLga = ref('');
