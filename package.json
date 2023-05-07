@@ -25,6 +25,9 @@
     "type": "git",
     "url": "https://github.com/hector-munachi/rsl-component-v"
   },
+  "bugs": {
+    "url": "https://github.com/hector-munachi/rsl-component-v/issues"
+},
   "homepage": "https://rsl-component-v.netlify.app/",
   "author": "Hector Munachi",
   "license": "MIT",

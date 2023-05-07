@@ -114,9 +114,16 @@ Here, we are rendering two instances of the `InputRSLV` component, one with `sho
 
 We welcome and appreciate contributions from the community to help improve the codebase and make it even better and simpler! Whether it's fixing bugs, adding new features, improving documentation, or enhancing performance, your contributions can make a significant impact on the project.
 
-<!-- See `here` for ways to get started.
+If you encounter a bug or have a feature request, we recommend using [GitHub's issue tracker](https://github.com/hector-munachi/rsl-component-v/issues/new/choose) to report it. This allows us to track issues and prioritize them accordingly. Please be sure to provide a clear and detailed description of the issue, including any error messages or screenshots that may be helpful.
 
-Please adhere to this project's `code of conduct`. -->
+If you would like to contribute code changes, please follow these steps:
+
+1. Fork the repository and create a new branch for your changes.
+2. Make your changes and ensure that all tests pass.
+3. Create a pull request on GitHub with a description of your changes and the problem they solve.
+
+We will review your changes and provide feedback as needed. Thank you for your contributions!
+
 
 
 ## Acknowledgements
