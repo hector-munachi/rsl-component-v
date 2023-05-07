@@ -94,7 +94,7 @@ The `showRegion` prop is a boolean that controls the visibility of the "Region" 
 </template>
 
 <script>
-import MyComponent from '@/components/MyComponent.vue';
+import InputRSLV from 'rsl-component-v';
 
 export default {
   components: {
