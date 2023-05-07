@@ -88,7 +88,7 @@ The `showRegion` prop is a boolean that controls the visibility of the "Region" 
 ```javascript
 <template>
   <div>
-    <InputRSLV :showRegion="true" />
+    <InputRSLV />
     <InputRSLV :showRegion="false" />
   </div>
 </template>
