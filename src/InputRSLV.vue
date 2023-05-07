@@ -955,3 +955,72 @@ export default {
   }
 };
 </script>
+
+<style>
+/* Container for the component */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Style for each input container */
+.input-container {
+  flex: 1;
+  margin: 0 10px;
+}
+
+/* Style for labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style for inputs and selects */
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Focus style for input elements */
+input:focus {
+  outline: none;
+}
+
+/* Focus style for select elements */
+select:focus {
+  /* Set the box shadow color to a darker blue */
+  box-shadow: 0px 0px 5px #007BFF;
+  outline: none;
+}
+
+/* Reduce width of Region input */
+#region {
+  width: 96%; /* Adjust the width as needed */
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  /* Stack inputs on top of each other */
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Add margin between stacked inputs */
+  .input-container {
+    margin-bottom: 10px;
+  }
+
+  /* Make inputs take full width of screen */
+  input,
+  select {
+    width: 100%;
+  }
+}
+</style>
