@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.6",
   "description": "A reusable Vue component for selecting a state and its corresponding region and LGAs",
-  "main": "InputRSLV.vue",
+  "main": "index.js",
   "keywords": [
     "vue",
     "vite",
