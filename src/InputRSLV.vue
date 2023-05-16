@@ -6,13 +6,15 @@
     </div>
     <div class="input-container">
     <label>State</label>
-    <select v-model="selectedState" placeholder="Select State">
+    <select v-model="selectedState">
+      <option value="">Select State</option>
       <option v-for="state in states" :value="state">{{ state }}</option>
     </select>
     </div>
     <div class="input-container">
     <label>LGA</label>
     <select v-model="selectedLga" placeholder="Select LGA">
+      <option value="">Select LGA</option>
       <option v-for="lga in lgas" :value="lga">{{ lga }}</option>
     </select>
     </div>
