@@ -959,6 +959,8 @@ export default {
       return Object.keys(lgaList);
     });
 
+    // console.log({ selectedState, selectedLga, region, lgas, states })
+    
     return { selectedState, selectedLga, region, lgas, states };
   }
 };
